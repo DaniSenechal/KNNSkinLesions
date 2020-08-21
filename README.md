@@ -12,20 +12,24 @@ Project was created with:
 
 ## Installation
 Install [RStudio](https://rstudio.com/products/rstudio/download/) to run the code.
-Download the following packages by typing these commands in the terminal.
+Download the following packages by typing these commands in the terminal. These packages are loaded in the available code.
 ```bash
 install.packages("ggplot2")
 ```
 ```bash
 install.packages("class")
 ```
-These packages are loaded in the available code.
+Download the data and read it in R by using the command:
+```bash
+proj1 <- read.csv("your directory")
+```
+where "your directory" is the pathname of the data file.
 
 ## Status
 This project is finished, but I am hoping to explore other classification models on this data set.
 
 ## Inspiration
-This project was done for my Senior Reasearch project at ECSU in 2019. 
+This project was done for my Senior Research project at ECSU in 2019. 
 
 ## Authors
 Danielle Senechal
